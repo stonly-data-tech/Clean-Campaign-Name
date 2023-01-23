@@ -21,6 +21,4 @@ The `cleanUtmCampain(utmCampaign)` function performs the following operations on
 
 The cleaned and transformed utm_campaign value is then assigned to the campaign property of the event object's $set property, and also assigned to the initial_campaign property of the event object's $set_once property.
 
-Finally, the processed event object is returned by the `processEvent()` function, to be ingested by the system that called it.
-
-The script is likely used to clean up and standardize the utm_campaign property of events before they are ingested into a data pipeline or analytics platform.
+The processed event object is returned by the `processEvent()` function, to be ingested by the system that called it.
